@@ -1,8 +1,10 @@
 git库 存储了很多关于资源库历史记录的相关信息（在.git隐藏目录中，使用ls -a可以查看）
+
 1,初始化或创建新的git仓库
     git init (此时使用ls -a可以看到当前目录下有.git文件夹)
     git log  查看当前的commit信息
     git status 查看最近提交的commit（比git log详细）
+    
 2,staging area :为允许明确指定要提交的更改
     git add   file_name(添加需要commit的文件到staging area)
     git reset file_name(删除从staging area中的file_name)
