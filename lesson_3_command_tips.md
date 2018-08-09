@@ -10,3 +10,6 @@
 3,从远程仓库提取
    git pull origin master
    ![image](https://github.com/ainingxiaoguai/learn-git/blob/master/git_pull.png)
+
+4, fast-forward merges
+      可以从b到a，则是fast-forward merges
