@@ -1,0 +1,17 @@
+1,系统自带比较工具
+    windows : FC(file compare)
+      FC old_file new_file
+    mac/linux: diff
+      diff -u old_file new_file  (-u  标准格式输出，方便阅读)
+2,  git log  查看提交信息
+    git log --stat(该选项会给出每次提交所更改的文件的统计数据)
+    git diff old_file new_file (对比统一文件的不同版本)
+3,安装git 
+    sudo apt-get install git
+    git --version （查看当前版本）
+4,克隆版本
+    git clone URL
+5,获得彩色输出
+    git config --global color.ui auto
+6,获取旧的版本
+    git checkout ID
