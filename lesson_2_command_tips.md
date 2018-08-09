@@ -39,10 +39,16 @@ git库 存储了很多关于资源库历史记录的相关信息（在.git隐藏
    git reset --hard (放弃工作目录或staging area 的更改)
 
 5，查看当前分支
+
     git branch(也可以用git status查看)
+    
 6,新建分支
     git branch branch_name
+    
 7,切换到分支
     git checkout branch_name
+    
 8,直观查看分支结构
     git log --graph --oneline branch_name1 branch_name2
+    
+    
