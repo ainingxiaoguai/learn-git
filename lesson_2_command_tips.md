@@ -70,5 +70,4 @@ git库 存储了很多关于资源库历史记录的相关信息（在.git隐藏
  
     git config --global core.autocrlf true  合并冲突（Windows 与 Unix 系统之间的换行符）
     
-    
-  
+13, git log -n num 表示列出多少个commit
