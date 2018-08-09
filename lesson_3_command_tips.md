@@ -9,3 +9,4 @@
    
 3,从远程仓库提取
    git pull origin master
+   ![image]()
