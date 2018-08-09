@@ -30,7 +30,12 @@ git库 存储了很多关于资源库历史记录的相关信息（在.git隐藏
     git commit -m "commit message"
 4, git diff (对比工作目录与staging area)
    git diff --staged (对比staging area 和 git库)
+   
+   
    ![image](https://github.com/ainingxiaoguai/learn-git/blob/master/git_diff.png)
+   
+   
+   
    git reset --hard (放弃工作目录或staging area 的更改)
 
 5，查看当前分支
