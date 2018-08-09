@@ -9,4 +9,4 @@
    
 3,从远程仓库提取
    git pull origin master
-   ![image]()
+   ![image](https://github.com/ainingxiaoguai/learn-git/blob/master/git_pull.png)
