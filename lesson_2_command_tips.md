@@ -86,4 +86,4 @@ git库 存储了很多关于资源库历史记录的相关信息（在.git隐藏
     
 13, git log -n num 表示列出多少个commit
 
-14, git branch -d branch_name 删除分支
+14, git branch -d branch_name 删除分支标签
