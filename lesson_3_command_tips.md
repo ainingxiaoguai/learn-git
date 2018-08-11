@@ -10,6 +10,9 @@
 3,从远程仓库提取
    git pull origin master
    ![image](https://github.com/ainingxiaoguai/learn-git/blob/master/git_pull.png)
+   
+   
+   git clone URL 无法克隆没有commit的远程仓库
 
 4, fast-forward merges
       可以从b到a，则是fast-forward merges
