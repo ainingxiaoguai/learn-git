@@ -2,8 +2,12 @@ git库 存储了很多关于资源库历史记录的相关信息（在.git隐藏
 
 1,初始化或创建新的git仓库
     git init (此时使用ls -a可以看到当前目录下有.git文件夹)
+    
     git log  查看当前的commit信息
-    git status 查看最近提交的commit（比git log详细）
+    
+    git log --stat 查看最近提交的commit（比git log详细）
+    
+    git status 查看当前分支状态
     
 2,staging area :为允许明确指定要提交的更改
 
