@@ -9,6 +9,8 @@ git库 存储了很多关于资源库历史记录的相关信息（在.git隐藏
     
     git status 查看当前分支状态
     
+    git log origin/master  查看你想看的分支log
+    
 2,staging area :为允许明确指定要提交的更改
 
     git add   file_name(添加需要commit的文件到staging area)
@@ -40,6 +42,8 @@ git库 存储了很多关于资源库历史记录的相关信息（在.git隐藏
 4, git diff (对比工作目录与staging area)
 
    git diff --staged (对比staging area 和 git库)
+   
+   git diff master origin/master  对比两个分支的diff
    
    
    ![image](https://github.com/ainingxiaoguai/learn-git/blob/master/git_diff.png)
