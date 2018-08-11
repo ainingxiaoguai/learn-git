@@ -52,9 +52,12 @@ git库 存储了很多关于资源库历史记录的相关信息（在.git隐藏
 
     git branch(也可以用git status查看)
     
+    git branch -a  （查看所有分支情况 可以看到origin/master 等 git branch看不到的分支）
+    
 6,新建分支
 
     git branch branch_name
+    
     
 7,切换到分支
 
