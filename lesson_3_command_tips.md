@@ -18,4 +18,10 @@
       可以从b到a，则是fast-forward merges
       
 5,从远程仓库更新
-      git fetch origin  更新远程origin仓库的所有分支到本地，可以用git branch -a查看分支情况， git diff origin/branch_name master 对比远程仓库branch_name 和master的对比, git log origin/branch_name 的commit情况, git status查看当前分支的情况
+      git fetch origin  更新远程origin仓库的所有分支到本地
+      可以用git branch -a查看分支情况
+      git diff origin/branch_name master 对比远程仓库branch_name 和master的对比
+      git log origin/branch_name 的commit情况
+      git status查看当前分支的情况
+      
+6, ![image](https://github.com/ainingxiaoguai/learn-git/blob/master/upstream.png)
